@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(248, 245, 241);
+    }
+    
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-color: #2AAAE2;
+        height: fit-content;
+        position: sticky;
+        padding: 8px;
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+    .logo label{
+        margin-left: 10px;
+    }
+    .main-item{
+        display: flex;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+        margin: 0;
+    }
+    
+    .side-bar{
+        width: 240px;
+        background-color: #cde2eb;
+        border: 1px;
+        height: 663px;
+        margin: 0;
+    }
+
+    .side-bar ul{
+        list-style: none;
+    }
+
+    .side-bar ul li{
+        margin: 20px 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .side-bar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .side-bar ul li a:hover {
+        color: #134c64;
+    }
+
+    .container{
+        width: 1600px;
+    }
+
+    .container-header{
+        margin: 10px 30px 10px 10px;
+    }
+
+    .box{
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+        background-color: #2AAAE2;
+        border: 1px solid black;
+        border-radius: 16px;
+        max-width: 670px;
+    }
+    .box-1{
+        display: flex;
+        margin: 10px;
+        padding: 40px 80px;
+        background-color: #2AAAE2;
+        border: 1px solid black;
+        border-radius: 16px;
+        max-width: 670px;
+    }
+
+    
+
+    .data-box {
+        padding: 20px;
+    }
+    
+    .box-profile{
+        display: flex;
+        background-color: #2AAAE2;
+        border: 1px solid black;
+        border-radius: 16px;
+        max-width: 670px;
+    }
+
+    .data-box-profile {
+        padding: 20px 100px;
+    }
+
+    .tombol-edit {
+        padding: 6px 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: azure;
+    }
+    .tombol-edit:hover{
+        background-color: #cde2eb;
+    }

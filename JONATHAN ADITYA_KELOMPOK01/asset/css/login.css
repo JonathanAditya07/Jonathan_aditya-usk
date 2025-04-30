@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(248, 245, 241);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.box {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.login-box{
+    background-color: #2AAAE2 ;
+    padding: 40px 90px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: black;
+}
+
+.login-box h1{
+    text-align: center;
+}
+.input-form p{
+    margin-bottom: 2px;
+}
+
+.input-form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.login-b {
+    padding: 12px;
+    background-color: azure;
+    border-radius: 12px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.login-b:hover{
+    background-color: rgb(202, 228, 228);
+}
+.button-b {
+    margin-top: 20px;
+}
